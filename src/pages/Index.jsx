@@ -1,5 +1,5 @@
 import { Container, VStack, Box, Text, Heading, Image, IconButton, Link, HStack } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -23,6 +23,15 @@ const Index = () => {
           </Link>
           <Link href="https://twitter.com/johndoe" isExternal>
             <IconButton aria-label="Twitter" icon={<FaTwitter />} size="lg" />
+          </Link>
+          <Link href="https://facebook.com/johndoe" isExternal>
+            <IconButton aria-label="Facebook" icon={<FaFacebook />} size="lg" />
+          </Link>
+          <Link href="https://instagram.com/johndoe" isExternal>
+            <IconButton aria-label="Instagram" icon={<FaInstagram />} size="lg" />
+          </Link>
+          <Link href="https://youtube.com/johndoe" isExternal>
+            <IconButton aria-label="YouTube" icon={<FaYoutube />} size="lg" />
           </Link>
         </HStack>
       </VStack>
